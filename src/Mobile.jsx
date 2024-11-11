@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import "./Mobile.css";
 import Creating_Notes_M from "./components/Creating_Notes/Creating_Notes_M";
 import Notes_MTitle from "./components/Notes_Title/Notes_MTitle";
+import add_btn_img from "./assets/add_btn_img.png"
 
 function Mobile() {
   const [titles, setTitles] = useState([]);
@@ -56,12 +57,7 @@ function Mobile() {
   return (
     <div className="mobile_sidebar">
       <div className="mobile_sidebar_title">Pocket Notes</div>
-      <div className="mobile_sidebar_create_notes_btn">
-        <button onClick={handleClick}>
-          <span id="add">+</span>
-          <span>Create Notes Group</span>
-        </button>
-      </div>
+
       <div className="mobile_sidebar_notes_title">
         {(
           titles.map((title, index) => (
@@ -83,6 +79,12 @@ function Mobile() {
             </div>
         </div>
       )}
+          <div className="User_group_create_notes_btn">
+ 
+ <img className="add_btn" id="add" src={add_btn_img} onClick={handleClick} alt="add-btn" />
+
+
+</div>
     </div>
   );
 }

@@ -6,13 +6,14 @@
   }
   
   .mobile_sidebar_title {
-    text-align: left;
+    text-align: center;
     height: 8vh;
     width: 80vw;
     font-size: 2rem;
     font-weight: 700;
     position: fixed;
     top: 3vh;
+  
   }
   
   .mobile_sidebar_create_notes_btn {
@@ -62,4 +63,4 @@
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 999;
   }
-  
+ 

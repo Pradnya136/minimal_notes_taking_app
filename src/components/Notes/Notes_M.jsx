@@ -88,18 +88,18 @@ function Notes_M() {
   const monthIndex = now.getMonth();
   const year = now.getFullYear().toString();
   const months = [
-    "January",
-    "February",
-    "March",
-    "April",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
     "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
   ];
   const month = months[monthIndex];
   return `${day} ${month} ${year}`;
