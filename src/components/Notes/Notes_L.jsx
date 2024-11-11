@@ -41,11 +41,11 @@ function Notes_L() {
 
 
   const handleKeyDown = (e) => {
-    if (e.key === "enter" && !e.shiftKey) {
+    if (e.key === "Enter" && !e.shiftKey) {
       e.preventDefault();
       handleSaveNotes();
     }
-    else if(e.key === "enter" && e.shiftKey){
+    else if(e.key === "Enter" && e.shiftKey){
       setText((prevText) => prevText + "\n");
     }
   };
