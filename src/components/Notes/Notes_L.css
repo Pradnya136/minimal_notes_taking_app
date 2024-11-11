@@ -1,0 +1,113 @@
+.notes {
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    /* color: white; */
+  
+  }
+
+  .notes_title {
+    height: 13vh;
+    width: 76vw;
+    background: #001F8B;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 5vh;
+  }
+  
+  .notes_title_color {
+    height: 9vh;
+    width: 9vh;
+    border-radius: 50%;
+    margin: 1vh 0 0 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4vh;
+  }
+  
+  .notes_title_text{
+      margin-left: 4vh;
+      color: white;
+  }
+  
+  .notes_content {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: row; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 57vh;
+    max-height: 58vh;
+    width: 76vw;
+    background: #DAE5F5;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+  }
+  .notes_content_note{
+   
+    background: #DAE5F5;
+  }
+  ::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+  }
+  
+  .notes_content_title {
+    height: 20vh;
+    width: 76vw;
+  }
+  
+  .notes_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 76vw;
+   
+    background: #001F8B;
+    position: fixed;
+    bottom: 0;
+
+  }
+  
+  .notes_input > textarea {
+    border: none;
+    outline: none;
+    border-radius: 1vh;
+    font-size: large;
+    padding: 0.5vh;
+    height: 25vh;
+    width: 70vw;
+    resize: none;
+    margin-left: -35px;
+  
+  }
+  textarea::placeholder {
+    font-size: 18px;   
+    color: #888;      
+    padding: 10px; 
+  }
+  .notes_input img {
+    position: absolute;
+    bottom: 6vh;
+    right: 12vh;
+    width: 20px;
+    height: 20px;
+    
+  }
+  .notes_input img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .notes_content_note{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+
+  }
+ 

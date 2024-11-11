@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+#container{
+    width: 100vw;
+    background: #DAE5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+#notes_group_main_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    letter-spacing: 2%;
+    flex-direction: column;
+    height: 200px;
+    width: 480px;
+    flex-grow: 1 ; /* div takes available space, pushing the footer down */
+    /* background: rgb(99, 166, 99); */
+}
+
+.notes_main_bg_img{
+    max-width: 100%;
+    height: auto;
+}
+.encrpt-msg{
+
+    color: #292929;
+}
+.lock{
+    height: 15px;
+}
